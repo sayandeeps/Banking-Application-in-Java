@@ -6,16 +6,20 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         while(true){
             System.out.println("1. Register Your self");
-            System.out.println("2. Exit");
+            System.out.println("2. Login");
+            System.out.println("3. Exit");
             int c= sc.nextInt();
-            if(c==2){
+            if(c==3){
                 break;
             }
             else if (c==1){
                 RegisterModule r= new RegisterModule();
                 r.register();
-            }
-            else {
+            } else if (c==2) {
+                LoginModule customer=new LoginModule();
+                customer.login();
+
+            } else {
                 System.out.println("Invalid choice ! ");
             }
         }
