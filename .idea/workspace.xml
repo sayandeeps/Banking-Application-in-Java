@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6f9d6fa-8f53-416d-9b7b-ac1a074868d1" name="Changes" comment="Registration module Added">
-      <change afterPath="$PROJECT_DIR$/src/LoginModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customerdashboard.java" afterDir="false" />
+    <list default="true" id="c6f9d6fa-8f53-416d-9b7b-ac1a074868d1" name="Changes" comment="Customer Dashboard, Login Module added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials.txt" beforeDir="false" afterPath="$PROJECT_DIR$/credentials.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginModule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegisterModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/customerdashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customerdashboard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <updated>1687542402401</updated>
       <workItem from="1687542404119" duration="1250000" />
       <workItem from="1688200756492" duration="6415000" />
-      <workItem from="1688208362929" duration="15191000" />
+      <workItem from="1688208362929" duration="15902000" />
     </task>
     <task id="LOCAL-00001" summary="Registration module Added">
       <created>1688208973975</created>
@@ -66,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688208973975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Customer Dashboard, Login Module added">
+      <created>1688229817012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688229817012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Registration module Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registration module Added" />
+    <MESSAGE value="Customer Dashboard, Login Module added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Customer Dashboard, Login Module added" />
   </component>
 </project>

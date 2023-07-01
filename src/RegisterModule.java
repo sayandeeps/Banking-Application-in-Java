@@ -31,6 +31,7 @@ public class RegisterModule {
 
     }
     public void register(){
+        System.out.println("-----------------------------------------------------------------------------------");
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter your Name");
         String name = sc.nextLine();

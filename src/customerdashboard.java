@@ -34,6 +34,7 @@ public class customerdashboard {
         int cbal = Integer.parseInt(l2);
 
         while(true){
+            System.out.println("-----------------------------------------------------------------------------------");
             Scanner sc =new Scanner(System.in);
             System.out.println("1. Check Balance");
             System.out.println("2. Withdraw");
@@ -45,6 +46,7 @@ public class customerdashboard {
                 break;
             }
             else if (op ==4){
+                System.out.println("-----------------------------------------------------------------------------------");
                 try(BufferedReader r= new BufferedReader(new FileReader(filePath))){
                     String line;
                     while((line = r.readLine())!=null){
@@ -55,9 +57,11 @@ public class customerdashboard {
                 }
             }
             else if (op==1){
+                System.out.println("-----------------------------------------------------------------------------------");
                 System.out.println("The Available balance is :"+cbal);
             }
             else if (op ==3){
+                System.out.println("-----------------------------------------------------------------------------------");
                 System.out.println("Enter the amount you want to deposit :");
                 int depamt=sc.nextInt();
                 cbal=cbal+depamt;
@@ -75,6 +79,7 @@ public class customerdashboard {
 
             }
             else if(op==2){
+                System.out.println("-----------------------------------------------------------------------------------");
                 System.out.println("Enter the amount you want to withdraw :");
                 int drawamt=sc.nextInt();
                 if(drawamt>cbal){

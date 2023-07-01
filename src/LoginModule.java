@@ -23,6 +23,7 @@ public class LoginModule {
     }
     public void login() throws IOException {
         Scanner sc = new Scanner(System.in);
+        System.out.println("-----------------------------------------------------------------------------------");
         System.out.println("Enter your Phone Number:");
         String user=sc.next();
         System.out.println("Enter the Pin:");

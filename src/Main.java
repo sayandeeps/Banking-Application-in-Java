@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         while(true){
+            System.out.println("-----------------------------------------------------------------------------------");
             System.out.println("1. Register Your self");
             System.out.println("2. Login");
             System.out.println("3. Exit");
