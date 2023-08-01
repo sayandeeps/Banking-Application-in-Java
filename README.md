@@ -23,7 +23,7 @@
 2. Compile and run the application using Java preferred use intellij and runt the main method.
 3. Follow the on-screen instructions to perform various banking operations.
 
-##line by line explanation is given in my youtube tutorial
+## Line by line explanation is given in my youtube tutorial
 - **My Youtube Tutorial for the project:** [Link to Youtube](https://youtu.be/Vdq1578fwzs)
 
 This **Banking Application in Java** is designed with simplicity and efficiency in mind, making it suitable for both beginners and experienced users.
